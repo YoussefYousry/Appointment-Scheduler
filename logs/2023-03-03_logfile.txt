@@ -1,0 +1,80 @@
+2023-03-03 14:29:36.1391 INFO Employee with ID: 2d9d9365-d345-477f-ab70-c4ead6f68e8df doesn't exist in the DB
+2023-03-03 17:56:16.4989 ERROR Something went wrong in the GetAllManagers action AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[DataLayer_AppointmentScheduler.Models.Manager, DataLayer_AppointmentScheduler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[BusinessLayer_AppointmentScheduler.Dto.AllManagersDTO, BusinessLayer_AppointmentScheduler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Manager -> AllManagersDTO
+DataLayer_AppointmentScheduler.Models.Manager -> BusinessLayer_AppointmentScheduler.Dto.AllManagersDTO
+   at lambda_method91(Closure, Manager, AllManagersDTO, ResolutionContext)
+   at lambda_method90(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method90(Closure, Object, IEnumerable`1, ResolutionContext)
+   at AppointmentScheduler.Controllers.ManagerController.GetAllManagers() in I:\FCIH-2\Courses\C#\VS 2022 Projects\C# Course Metigator\LINQ\AppointmentSchedularApp\AppointmentScheduler\Controllers\ManagerController.cs:line 88
+2023-03-03 17:59:10.4982 INFO Manager With ID : (454) doesn't exist in the database
+2023-03-03 17:59:17.0415 ERROR Something went wrong in the GetAllManagers action AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[DataLayer_AppointmentScheduler.Models.Manager, DataLayer_AppointmentScheduler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[BusinessLayer_AppointmentScheduler.Dto.AllManagersDTO, BusinessLayer_AppointmentScheduler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Manager -> AllManagersDTO
+DataLayer_AppointmentScheduler.Models.Manager -> BusinessLayer_AppointmentScheduler.Dto.AllManagersDTO
+   at lambda_method83(Closure, Manager, AllManagersDTO, ResolutionContext)
+   at lambda_method82(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method82(Closure, Object, IEnumerable`1, ResolutionContext)
+   at AppointmentScheduler.Controllers.ManagerController.GetAllManagers() in I:\FCIH-2\Courses\C#\VS 2022 Projects\C# Course Metigator\LINQ\AppointmentSchedularApp\AppointmentScheduler\Controllers\ManagerController.cs:line 88
+2023-03-03 18:06:34.4497 ERROR Something went wrong in the GetAllManagers action AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[DataLayer_AppointmentScheduler.Models.Manager, DataLayer_AppointmentScheduler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[BusinessLayer_AppointmentScheduler.Dto.AllManagersDTO, BusinessLayer_AppointmentScheduler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Manager -> AllManagersDTO
+DataLayer_AppointmentScheduler.Models.Manager -> BusinessLayer_AppointmentScheduler.Dto.AllManagersDTO
+   at lambda_method379(Closure, Manager, AllManagersDTO, ResolutionContext)
+   at lambda_method378(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method378(Closure, Object, IEnumerable`1, ResolutionContext)
+   at AppointmentScheduler.Controllers.ManagerController.GetAllManagers() in I:\FCIH-2\Courses\C#\VS 2022 Projects\C# Course Metigator\LINQ\AppointmentSchedularApp\AppointmentScheduler\Controllers\ManagerController.cs:line 88
+2023-03-03 18:06:40.7323 ERROR Something went wrong in the GetAllManagers action AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[DataLayer_AppointmentScheduler.Models.Manager, DataLayer_AppointmentScheduler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[BusinessLayer_AppointmentScheduler.Dto.AllManagersDTO, BusinessLayer_AppointmentScheduler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Manager -> AllManagersDTO
+DataLayer_AppointmentScheduler.Models.Manager -> BusinessLayer_AppointmentScheduler.Dto.AllManagersDTO
+   at lambda_method379(Closure, Manager, AllManagersDTO, ResolutionContext)
+   at lambda_method378(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method378(Closure, Object, IEnumerable`1, ResolutionContext)
+   at AppointmentScheduler.Controllers.ManagerController.GetAllManagers() in I:\FCIH-2\Courses\C#\VS 2022 Projects\C# Course Metigator\LINQ\AppointmentSchedularApp\AppointmentScheduler\Controllers\ManagerController.cs:line 88
+2023-03-03 18:07:17.9877 ERROR Something went wrong in the GetAllManagers action AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[DataLayer_AppointmentScheduler.Models.Manager, DataLayer_AppointmentScheduler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[BusinessLayer_AppointmentScheduler.Dto.AllManagersDTO, BusinessLayer_AppointmentScheduler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Manager -> AllManagersDTO
+DataLayer_AppointmentScheduler.Models.Manager -> BusinessLayer_AppointmentScheduler.Dto.AllManagersDTO
+   at lambda_method44(Closure, Manager, AllManagersDTO, ResolutionContext)
+   at lambda_method43(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method43(Closure, Object, IEnumerable`1, ResolutionContext)
+   at AppointmentScheduler.Controllers.ManagerController.GetAllManagers() in I:\FCIH-2\Courses\C#\VS 2022 Projects\C# Course Metigator\LINQ\AppointmentSchedularApp\AppointmentScheduler\Controllers\ManagerController.cs:line 73
+2023-03-03 18:32:55.5306 INFO Employee with ID: {     "name": "Big-Data"   } doesn't exist in the DB
+2023-03-03 18:33:04.2688 INFO Employee with ID: 57551ae0-fbe0-42f7-9140-10b7b86cfaf2 doesn't exist in the DB
+2023-03-03 18:33:07.0597 INFO Employee with ID: 57551ae0-fbe0-42f7-9140-10b7b86cfaf2 doesn't exist in the DB

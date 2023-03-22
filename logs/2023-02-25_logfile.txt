@@ -1,0 +1,17 @@
+2023-02-25 17:57:14.6240 ERROR Something went wrong in the GetEmployees action Microsoft.Data.SqlClient.SqlException (0x80131904): The offset specified in a OFFSET clause may not be negative.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at BusinessLayer_AppointmentScheduler.Repositories.EmployeeRepository.GetAllEmployeesAsync(RequestParameters paramters, Boolean trackChanges) in I:\FCIH-2\Courses\C#\VS 2022 Projects\C# Course Metigator\LINQ\AppointmentSchedularApp\BusinessLayer_AppointmentScheduler\Repositories\EmployeeRepository.cs:line 22
+   at AppointmentScheduler.Controllers.EmployeeController.GetEmployees(RequestParameters parameters) in I:\FCIH-2\Courses\C#\VS 2022 Projects\C# Course Metigator\LINQ\AppointmentSchedularApp\AppointmentScheduler\Controllers\EmployeeController.cs:line 68
+ClientConnectionId:fa2682de-171e-42f5-93ae-5023dcd6a976
+Error Number:10742,State:1,Class:15
